@@ -23,11 +23,13 @@ The Steam App ID Mapper is a Python script that automates the creation of symbol
 
 Note: pip is not installed by default on the Steam Deck, you can instead use:
 
-`wget https://bootstrap.pypa.io/get-pip.py
+```
+wget https://bootstrap.pypa.io/get-pip.py
 python3 get-pip.py --user
 if [ -d "$HOME/.local/bin" ]; then
   PATH="$HOME/.local/bin:$PATH"
-fi`
+fi
+```
 
 4. Run the script using the following command:
 
